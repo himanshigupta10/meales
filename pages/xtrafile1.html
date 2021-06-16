@@ -1,0 +1,494 @@
+e="text/css" media="screen">
+   
+
+   body {
+  font-family: Arial;
+  margin: 0;
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.myslides img {
+   vertical-align: middle;
+   height: 50px;
+  }
+.slideimage{
+  margin: auto;
+   display: block;
+
+}
+/* Position the image container (needed to position the left and right arrows) */
+.sliders {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+.quality-img{
+  width: 350px;
+  height: 350px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+
+   
+     .myrows{
+    border: 3px solid green;
+
+}
+
+.mycols{
+    border: 3px solid red;
+}
+.mycontainer{
+    background-color: aqua;
+    border: 3px solid red;
+}
+h1{
+    color:blue;
+} 
+#topheader{
+  background-color: ghostwhite;
+  border-bottom: 1px solid silver;
+  
+}
+#topheader a{
+  color: #2c3e50;
+  font-weight: 600;
+  font-size: 0.89rem;
+}
+.container-fluid{
+  padding-left:0;
+  padding-right:0;
+}
+#midheader{
+    border-bottom: 1px solid silver;
+ 
+}
+nav ul li a {
+ font-size: 1.1rem;
+ font-weight: 600;
+ color:white;
+}
+.nav-right{
+    float: right;
+}
+.more{
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 80%;
+    display:block;
+    border: 1px solid #888;
+    background-color:green;
+    padding: 10px;
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+  text-align: center;
+  z-index: 10;
+  max-width: 630px;
+
+
+}
+.center {
+    display:block;
+    border: 2px solid white;
+    padding: 10px;
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+  text-align: center;
+  z-index: 10;
+  max-width: 630px;
+}
+<!--.combine{
+  width: 100%;
+  max-width: 1024px;
+  height: auto;
+}-->
+.heading{
+  display: block;
+  background-color: red;
+  padding: 15px;
+}
+.center1 {
+ position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+}
+.center1 ul{
+    list-style-type:none;
+    padding: 50px;
+    margin: 0;
+}
+.center1 ul li{
+display: inline;
+padding: 20px;
+}
+
+.full-footer{
+  background-color: #b33939;
+
+}
+.image{
+  padding-top: 6px;
+  border-radius: 50%;
+}
+.top-footer p{
+  color: white;
+}
+.top-footer a{
+  color: white;
+  font-weight: 600;
+}
+.top-footer h3{
+  color: white;
+}
+.bottom-footer{
+  background-color: #031b2e;
+}
+.bottom-footer p{
+  color: white;
+}
+
+.top-hero-section{
+  color: white;
+  
+}
+.img1{
+  border-radius: 50%;
+  width:100px;
+  text-align:center;
+}
+.top-hero-section a{
+  color: white;
+  font-weight: 600;
+
+}
+.top-hero-section img{
+  width: 100%;
+}
+.qualities-img{
+  width:150px;
+  
+}
+
+.requirements-section{
+  background-color: #B4344D;
+  color:white;
+}
+.home-newsletter{
+  background-color:#B4344D;
+  color:white;
+  padding-top: 30px;  
+}
+
+.home-newsletter .form-control{
+  height: 50px;
+  border-color: transparent;
+  border-radius: 20px 0 0 20px;
+}
+.home-newsletter .btn{
+  min-height: 50px;
+  border-radius: 0 20px 20px 0;
+  background-color: #243c4f;
+  color: #fff;
+}
+.mess{
+  display: inline-block;
+  padding-top:15px;
+  padding:30px;
+  padding-bottom:15px;
+  border: 1px solid black;
+}
+
+
+.section3::after
+{
+display:table;
+content: "";
+clear:both;
+}
+.menu1 {
+  float:left;
+  width:20%;
+  text-align:center;
+}
+.menu1 a {
+  background-color:#e5e5e5;
+  padding:8px;
+  margin-top:7px;
+  display:block;
+  width:100%;
+  color:black;
+}
+.main {
+  float:left;
+  width:60%;
+  padding:0 20px;
+}
+.right1 {
+  float:left;
+  width:20%;
+  padding:15px;
+  margin-top:7px;
+  text-align:center;
+}
+
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  .menu1, .main, .right1 {
+    width:100%;
+  }
+}
+
+
+
+.responsive::after {
+display:table;
+content:' "";
+clear:both;
+}
+
+
+div.gallery {
+ border: 1px solid #ccc;
+ float:left;
+width:25%;
+
+ }
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: 300px;
+}
+
+
+
+.parent-box{
+    background-color: white;
+display: flex;
+  }
+  .box{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  
+    height: 400px;
+    background-color:white;
+    margin:4px;
+
+  }
+.sliderimage{
+  height:55%;
+}
+  .owl-carousel .owl-nav button.owl-prev{
+     background:none;
+     color: inherit;
+     border: none;  
+     padding: 0 !important;
+     font: inherit;
+position: absolute;
+top: 50%;
+left: 0;
+transform: translateY(-50%);
+width: 30px;
+height: 30px;
+border-radius: 50%; 
+background-color: green;
+
+  }
+  .owl-carousel .owl-nav button.owl-next{
+
+    background:none;
+     color: inherit;
+     border: none;  
+     padding: 0 !important;
+     font: inherit;
+     position: absolute;
+top: 50%;
+right:0;
+width: 30px;
+height: 30px;
+border-radius: 50%; 
+background-color: green;
+}
+
+.panels{
+  position: relative;
+  width: 25%;
+  margin: 0;
+  display: block;
+  box-sizing: border-box;
+  float: left;
+}
+
+.panels back{
+  transform: rotateY(90deg);
+
+}
+
+.panels front{
+  position: absolute;
+}
+
+.panels:hover front{
+  animation: twirl 0.2s ease-in forwards;
+}
+
+.panels:hover back{
+  animation: twirl 0.2s ease-out forwards reverse;
+}
+
+.checked {
+  color: orange;
+}
+
+@keyframes twirl{
+  0%{ transform: rotateY(0deg)}
+  100%{ transform: rotateY(90deg)}
+}
+
+@media ("max-width:620px") {
+ .responsive {
+   width:100%;
+}
+}
+
+
+
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  .top-hero-section img{
+    width:100%;
+  }
+  
+  
+
+
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: #2980b9;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+
+
+</style>
